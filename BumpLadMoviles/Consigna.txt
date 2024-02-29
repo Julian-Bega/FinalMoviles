@@ -1,0 +1,39 @@
+- No se conecto de entrada al google services
+- el sonido no se escucha, ni aun tocando el boton del menu.
+- me quedaban 3 monedas pero cuando cerre y abri el juego no se mantuvieron, no obstante los skins si
+- hay skins que me deja seleccionar igual aunque me aparesca el precio para comprarlos.
+= como recomendacion, las cosas como "reset score" o money, ponerlas en una pantallas de cheats, como la del plugin por ej.
+- faltan pantalla de creditos
+- Los menu no se adaptan bien a distintas resoluciones de pantalla.
+- Para la proxima implementar el movimiento para el editor tambien
+- En futuros casos, el object pool hay que abstraerlo, ese es el chiste de los patrones de diseño, tambien hay otros sitios en el GameManager donde podrias haber aplicado una state machine por ej.
+- evitar el uso de "Invoke() o InvokeRepeating()"
+- El plugin esta ubicado en una carpeta erronea en el proyecto, tampoco encontre el codigo del mismo.
+
+
+A esto se adicionará:
+
+Integracion del SDK de Facebook y la implementacion de al menos tres de sus servicios, sin contar el Login, tales como: Game Invites, Graph API, App Links, Share, App Events, AdsAudience Network, etc.
+Leaderboard y Achievements como servicios de Google Play.
+El juego debe de estar publicado en Produccion en el Google Play. Toda persona tiene que poder jugar el juego.
+Optimizaciones del juego:
+Transicion de escenas de forma asyncronica.
+Uso de Sprite Atlases para las texturas.
+LOD y uso de Frustum y Occlusion Culling, dependiendo cual sea el caso de sus juegos.
+Prestar especial atencion a los tiempos de verificacion de los juegos en en Google Play, suelen tardar un tiempo hasta que se aprueban o no.
+
+
+Aclaraciones:
+
+Prestar especial atencion a la iconografia del juego: tanto dentro del juego, como icono, splash screen, etc; como en la pagina del store: capturas, videos, acievements, etc.
+Toda la UI debe de ser adaptativa y no entrar en conflicto con las areas seguras.
+El juego debe de presentar algun tipo de progresion a lo largo del tiempo, independientemente si cierro y abro la aplicacion.
+Cuidado con los Terminos y Condiciones de sus juegos una vez que tengan los nuevos requisitos implementado porque es probable que tengan que actualizarlos.
+
+
+Las cosas de google cloud para conexion de sesion
+
+
+https://www.youtube.com/watch?v=EJvbad5Eb1s
+https://www.youtube.com/watch?v=LYa3mO_SHB8
+https://www.youtube.com/watch?v=5D-WcSXZD_U
